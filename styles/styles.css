@@ -27,4 +27,14 @@ header {
   cursor: pointer;
   display: inline-block; }
 
+main {
+  background: red;
+  max-width: 1440px;
+  height: 400px; }
+
+footer {
+  background: green;
+  max-width: 1440px;
+  height: 400px; }
+
 /*# sourceMappingURL=styles.css.map */

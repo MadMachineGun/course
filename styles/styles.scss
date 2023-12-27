@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: #EFEFF2;
+}
+
+
+.languages-menu, .courses-menu {
+  display: none;
+  position: absolute;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.languages-menu li, .courses-menu li {
+  padding: 10px;
+}
+
+.sub-menu-button {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.current-language {
+  cursor: pointer;
+  display: inline-block;
+}

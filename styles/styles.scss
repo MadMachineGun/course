@@ -6,6 +6,67 @@
 
 header {
   background: #EFEFF2;
+
+  a {
+    font: 600 18px/1 'Inter', sans-serif;
+    color: var(--Grayscale, #19191C);
+  }
+
+  .logo-img {
+    margin-left: 0;
+  }
+
+  a.navbar-brand:nth-child(2) {
+    margin-right: 68px;
+    font: 800 24px/1 'Inter', sans-serif;
+
+  }
+
+  #coursesDropdown {
+    margin-right: 68px;
+  }
+
+  a.navbar-brand:nth-child(4) {
+    margin-right: 48px;
+
+  }
+
+  a.navbar-brand:nth-child(5) {
+    margin-right: 430px;
+  }
+
+  #languageDropdown {
+    margin-right: 48px;
+  }
+
+  a.navbar-brand:nth-child(7) {
+    margin-right: 48px;
+  }
+
+  a.btn {
+    margin-left: 0;
+    font: 600 18px/1 'Inter', sans-serif;
+    background: var(--Grayscale, #19191C);
+    display: inline-flex;
+    padding: 12px 37px;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: #FF4500;
+    }
+  }
 }
 
 .languages-menu, .courses-menu {
@@ -17,31 +78,24 @@ header {
   background-color: #fff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   z-index: 1;
+
+  li {
+    padding: 10px;
+  }
 }
 
-.languages-menu li, .courses-menu li {
-  padding: 10px;
-}
-
-.sub-menu-button {
-  cursor: pointer;
-  display: inline-block;
-}
-
-.current-language {
+.sub-menu-button, .current-language {
   cursor: pointer;
   display: inline-block;
 }
 
 main {
   background-color: white;
-  width: 100%;
-  height: 100%;
 
   .container {
     max-width: 1440px;
-    height: 50vh;
-    background-image: url('images/main_gradient.png');
+    height: 100vh;
+    background-image: url('../images/main-gradient.png');
     background-size: cover;
   }
 }
@@ -49,5 +103,5 @@ main {
 footer {
   background: black;
   width: 100%;
-  height: 400px;
+  height: 600px;
 }

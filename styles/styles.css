@@ -73,7 +73,7 @@ header {
 main {
   background-color: white; }
   main .container {
-    max-width: 1440px;
+    max-width: 1560px;
     height: 50vh;
     background-image: url("../img/main-gradient.png");
     background-size: cover;
